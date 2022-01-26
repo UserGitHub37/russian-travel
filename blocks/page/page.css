@@ -1,0 +1,9 @@
+body > * * {
+  outline: 1px dashed red;
+}
+
+.page {
+  min-width: 1280px;
+  margin: 0 auto;
+  padding: 28px 48px 24px 48px;
+}
