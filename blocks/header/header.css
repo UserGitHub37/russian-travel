@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__lang-links {
+  display: flex;
+  list-style-type: none;
+  margin: 18px 0 6px;
+  padding-left: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link {
+  margin-right: 18px;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
