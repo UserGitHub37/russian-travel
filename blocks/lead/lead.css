@@ -7,7 +7,6 @@
   width: 720px;
   min-height: 200px;
   margin: 0 auto 32px;
-  padding-top: 56px;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -31,7 +30,6 @@
 
 .lead__image {
   width: 100%;
-  /*! В Фигме не 6, а 8px, но с Пиксель-Перфект получается 6px */
   margin-bottom: 6px;
 }
 

@@ -1,6 +1,11 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
+}
+
+.content_lead {
+  margin: 56px auto 92px;
+}
+
+.content_intro {
+  margin: 0 auto 92px;
 }
