@@ -21,5 +21,13 @@
 }
 
 .header__lang-link_active {
-  text-decoration: underline;
+  position: relative;
+}
+
+.header__lang-link_active::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 29px;
+  border-bottom: 1px solid #FFFFFF;
 }
