@@ -1,0 +1,59 @@
+.places {
+  max-width: 984px;
+}
+
+.places__card {
+  display: grid;
+  grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+}
+.places__card:last-child {
+  margin-bottom: 0;
+}
+
+.places__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+/* or 106% */
+}
+.places__website {
+  align-self: end;
+
+}
+.places__url-heading {
+  max-width: 456px;
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  margin: 0 0 12px;
+}
+
+.places__link {
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.places__image {
+  width: 100%;
+}
+
+.places__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  margin: 0 0 24px;
+}
+
+.places__paragraph:last-child {
+  margin: 0;
+}
