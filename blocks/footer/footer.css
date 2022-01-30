@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 0;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #FFFFFF;
+  margin-right: 14px;
+  transition: opacity 0.2s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}

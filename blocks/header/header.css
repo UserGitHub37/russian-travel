@@ -3,6 +3,11 @@
   justify-content: space-between;
 }
 
+.header__logo-link {
+  /*Иначе снизу логотипа добавятся лишняя пара пикселей и высота блока header увеличится*/
+  line-height: 0;
+}
+
 .header__lang-links {
   display: flex;
   list-style-type: none;
@@ -12,12 +17,18 @@
   line-height: 28px;
 }
 
-.header__lang-link {
+.header__lang-links-item {
   margin-right: 18px;
 }
 
-.header__lang-link:last-child {
+.header__lang-links-item:last-child {
   margin-right: 0;
+}
+
+.header__lang-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .header__lang-link_active {

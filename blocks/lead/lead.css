@@ -1,6 +1,5 @@
 .lead {
   max-width: 984px;
-  min-height: 1005px;
 }
 
 .lead__title {
@@ -42,5 +41,10 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
 
+}
 
