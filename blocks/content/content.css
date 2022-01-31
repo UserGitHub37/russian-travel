@@ -43,4 +43,13 @@
   .content__intro {
     margin: 88px 24px 0;
   }
+
+  .content__places {
+    margin: 88px auto 0;
+    padding: 0 24px;
+  }
+
+  .content__photo-grid {
+    margin: 88px auto 0;
+  }
 }
