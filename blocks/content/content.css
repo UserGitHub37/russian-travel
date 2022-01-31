@@ -24,11 +24,23 @@
 
 @media screen and (max-width: 1279px) {
   .content__lead {
-    margin: 48px auto 92px;
+    margin: 48px auto 0;
   }
 
   .content__places {
     margin: 93px auto 0;
     padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .content__intro {
+    margin: 92px 48px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content__intro {
+    margin: 88px 24px 0;
   }
 }

@@ -45,3 +45,17 @@ html > * * {
     margin: 92px 48px 24px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+/*   .page__container {
+    padding: 0;
+  } */
+
+  .page__header {
+    margin: 28px 24px 0;
+  }
+
+/*   .page__footer {
+    margin: 92px 48px 24px;
+  } */
+}
