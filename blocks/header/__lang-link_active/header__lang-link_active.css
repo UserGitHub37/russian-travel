@@ -1,0 +1,17 @@
+.header__lang-link_active {
+  position: relative;
+}
+
+.header__lang-link_active::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 29px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link_active::after {
+    width: 22px;
+  }
+}
