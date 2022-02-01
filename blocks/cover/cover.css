@@ -1,10 +1,12 @@
 .cover__image {
+  display: block;
   background-image: url(../../images/cover__background.jpg);
   background-size: cover;
   max-width: 1184px;
   position: relative;
   padding-bottom: calc(100% * 5 / 8);
   margin: 0 auto;
+  color: #FFFFFF;
 }
 
 .cover__image::before {
@@ -33,8 +35,7 @@
 
 
 .cover__title {
-  max-width: 560px;
-  height: 152px;
+  width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -45,10 +46,24 @@
 
 .cover__subtitle {
   width: 360px;
-  height: 66px;
   font-size: 18px;
   line-height: 22px;
   /* or 122% */
   text-align: center;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+
+  .cover__subtitle {
+    width: 270px;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

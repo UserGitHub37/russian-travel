@@ -24,12 +24,10 @@
 
 .places__website {
   align-self: end;
-
 }
 
 .places__url-heading {
   max-width: 456px;
-  height: 12px;
   font-size: 12px;
   line-height: 12px;
   /* identical to box height, or 100% */
@@ -64,7 +62,7 @@
 }
 
 .places__paragraph:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -75,20 +73,17 @@
 }
 
 @media screen and (max-width: 1023px) {
+  .places__card {
+    column-gap:28px;
+    row-gap: 48px;
+    margin-bottom: 73px;
+  }
+
   .places__title {
     font-size: 42px;
     line-height: 46px;
     /* or 110% */
     max-width: 329px;
-  }
-
-  .places__card {
-/*     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px); */
-/*     grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content); */
-/*     grid-template-columns: 46.75% auto */
-    column-gap:28px;
-    row-gap: 48px;
-    margin-bottom: 73px;
   }
 
   .places__paragraph {
@@ -97,3 +92,42 @@
     margin: 0 0 24px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .places__card {
+    grid-template-columns: auto;
+    row-gap: 0;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px 32px;
+  }
+
+  .places__website {
+    margin: 0 16px 32px;
+  }
+
+  .places__url-heading {
+    margin-bottom: 12px;
+  }
+
+  .places__image {
+    margin-bottom: 32px;
+    max-width: 460px;
+    justify-self: center;
+    object-fit: cover;
+    height: auto;
+  }
+
+  .places__paragraph {
+    margin: 0 16px 25px;
+  }
+}
+
+/*  grid-template-columns: minmax(340px, 440px) minmax(352px, 456px); */
+/*  grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content); */
+/*  grid-template-columns: 46.75% auto */

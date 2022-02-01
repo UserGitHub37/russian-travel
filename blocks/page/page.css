@@ -4,11 +4,11 @@ html > * * {
 
 .page {
   background-color: #2A2C2F;
-
 }
 
 .page__container {
   max-width: 1280px;
+  min-width:320px;
   margin: 0 auto;
   padding: 0 48px;
   box-sizing: border-box;
@@ -24,7 +24,6 @@ html > * * {
 
 
 .page__header {
-
   margin: 28px auto 0;
 }
 
@@ -59,5 +58,9 @@ html > * * {
 @media screen and (max-width: 767px) {
   .page__header {
     margin: 16px 16px 0;
+  }
+
+  .page__footer {
+    margin: 64px 16px 24px;
   }
 }
