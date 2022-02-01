@@ -43,3 +43,22 @@
   width: 29px;
   border-bottom: 1px solid #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__lang-links {
+    margin: 14px 0 0;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__lang-link_active::after {
+    width: 22px;
+  }
+}
+
