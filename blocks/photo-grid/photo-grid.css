@@ -5,10 +5,6 @@
   max-width: 1184px;
 }
 
-.photo-grid__image {
-  width: 100%;
-}
-
 @media screen and (max-width: 1279px) {
   .photo-grid {
     padding: 0 48px;
@@ -24,9 +20,6 @@
 @media screen and (max-width: 767px) {
   .photo-grid {
     padding: 0 16px;
-  }
-
-  .photo-grid {
     gap: 12px;
   }
 }
