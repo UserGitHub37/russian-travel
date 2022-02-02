@@ -38,15 +38,12 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__title-wrapper/cover__title-wrapper.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
-
-@import url();
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__item-link/footer__item-link.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
