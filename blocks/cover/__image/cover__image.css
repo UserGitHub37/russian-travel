@@ -2,6 +2,8 @@
   display: block;
   background-image: url(../../../images/cover__background.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
   padding-bottom: calc(100% * 5 / 8);
