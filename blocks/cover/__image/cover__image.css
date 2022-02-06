@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
-  padding-bottom: calc(100% * 5 / 8);
+  height: 740px;
   margin: 0 auto;
   color: #FFFFFF;
 }
@@ -25,4 +25,11 @@
 .cover__image:hover::before {
   opacity: 0.8;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__image {
+    padding-bottom: calc(100% * 5 / 8);
+    height: auto;
+  }
 }
