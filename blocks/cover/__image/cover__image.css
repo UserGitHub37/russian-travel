@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   position: relative;
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto;
   color: #FFFFFF;
   text-decoration: none;
@@ -32,6 +32,6 @@
 
 @media screen and (max-width: 1184px) {
   .cover__image {
-    height: calc(100vw * 5 / 8);
+    min-height: calc(100vw * 5 / 8);
   }
 }
